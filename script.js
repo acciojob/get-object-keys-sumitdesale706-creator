@@ -1,8 +1,8 @@
 //your JS code here. If required.
 const student = {
-    name: "Rohit"
+    name : "Rohit"
 };
 
-function getKeys(obj) {
+let getKeys = function(obj) {
     return Object.keys(obj);
-}
+};
