@@ -1,8 +1,8 @@
 //your JS code here. If required.
-const student = {
+const myObj = {
     name : "Rohit"
 };
 
-let getKeys = function(obj) {
-    return Object.keys(obj);
+let getKeys = function(myObj) {
+    return Object.keys(myObj);
 };
